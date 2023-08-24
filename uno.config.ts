@@ -5,7 +5,7 @@ export default defineConfig({
         presetUno(),
         presetWebFonts({
             fonts: {
-                Inter: 'Inter'
+                Inter: { name: "Inter", weights: [400, 500, 600, 700, 800, 900] }
             },
         }),
         formKitUnocssPlugin()
