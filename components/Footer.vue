@@ -9,15 +9,9 @@
                         <Icon name="Ig" class="text-lg text-fblue"></Icon>
                     </CustomLink>
                 </div>
-<<<<<<< HEAD
                 <div class="lt-lg:hidden">
                     <h3 class="font-Nekst text-xl font-semibold leading-1.1 pb-5 border-b border-footer2">Наши услуги</h3>
                     <div class="flex flex-col gap-4 text-base leading-1.4 mt-5">
-=======
-                <div class="max-lg:hidden">
-                    <h3 class="font-Nekst text-xl font-semibold leading-[1.1] pb-5 border-b border-footer2">Наши услуги</h3>
-                    <div class="flex flex-col gap-4 text-base leading-[1.4] mt-5">
->>>>>>> deef4cf (fix)
                         <CustomLink>Экскурсии</CustomLink>
                         <CustomLink>Туры</CustomLink>
                         <CustomLink>Трансферы</CustomLink>
@@ -44,15 +38,9 @@
                 </div>
             </div>
             <div class="grid lg:grid-cols-2 gap-7.5 flex-1">
-<<<<<<< HEAD
                 <div class="lt-lg:hidden">
                     <h3 class="font-Nekst text-xl font-semibold leading-1.1 pb-5 border-b border-footer2">Туры</h3>
                     <div class="flex flex-col gap-4 text-base leading-1.4 mt-5">
-=======
-                <div class="max-lg:hidden">
-                    <h3 class="font-Nekst text-xl font-semibold leading-[1.1] pb-5 border-b border-footer2">Туры</h3>
-                    <div class="flex flex-col gap-4 text-base leading-[1.4] mt-5">
->>>>>>> deef4cf (fix)
                         <CustomLink to="/test">2 дня 1 ночь</CustomLink>
                         <CustomLink to="/test">3 дня 2 ночи</CustomLink>
                         <CustomLink to="/test">4 дня 3 ночи</CustomLink>

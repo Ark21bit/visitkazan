@@ -44,13 +44,8 @@
                     <span class="text-fblack">Ру</span>
                     <span>EN</span>
                 </div>
-<<<<<<< HEAD
                 <div class="flex gap-7 sm:gap-7.5 lg:gap-12.5 lt-lg:flex-col mx-5 lg:mx-0">
                     <div class="flex flex-col gap-5 lg:gap-2 text-3.25 leading-1.2 font-bold text-fblack">
-=======
-                <div class="flex gap-7 sm:gap-7.5 lg:gap-12.5 max-lg:flex-col mx-5 lg:mx-0">
-                    <div class="flex flex-col gap-5 lg:gap-2 text-[.8125rem] leading-[normal] font-bold text-fblack">
->>>>>>> deef4cf (fix)
                         <div class="flex items-center">
                             <Icon class="mr-1 text-fblue text-lg" name="Phone"></Icon>
                             <CustomLink>8(800)201-42-64</CustomLink>

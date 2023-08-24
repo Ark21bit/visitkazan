@@ -6,7 +6,6 @@
             <FormKit validation="required" type="text" label="Дата"></FormKit>
         </div>
         <div class="flex flex-col gap-5">
-<<<<<<< HEAD
             <h4 class="font-Nekst col-span-full text-base leading-1.2 text-fblack">Выбор отеля</h4>
             <FormKit type="select" label="Выберите отель"></FormKit>
         </div>
@@ -16,27 +15,12 @@
         </div>
         <div class="flex flex-col gap-5">
             <h4 class="font-Nekst col-span-full text-base leading-1.2 text-fblack">Дополнительные услуги</h4>
-=======
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Выбор отеля</h4>
-            <FormKit type="select" label="Выберите отель"></FormKit>
-        </div>
-        <div class="flex flex-col gap-5">
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Количество людей</h4>
-            <FormKit type="number" label="Введите число"></FormKit>
-        </div>
-        <div class="flex flex-col gap-5">
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Дополнительные услуги</h4>
->>>>>>> deef4cf (fix)
             <FormKit type="group">
                 <TicketsTable></TicketsTable>
             </FormKit>
         </div>
         <div class="flex flex-col gap-5">
-<<<<<<< HEAD
             <h4 class="font-Nekst col-span-full text-base leading-1.2 text-fblack">Комментарий к заказу</h4>
-=======
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Комментарий к заказу</h4>
->>>>>>> deef4cf (fix)
             <FormKit type="text" label="Введите текст"></FormKit>
         </div>
         <div class="grid grid-cols-2 gap-5">

@@ -7,39 +7,23 @@
             <FormKit validation="required" type="select" label="Время"></FormKit>
         </div>
         <div class="flex flex-col gap-5">
-<<<<<<< HEAD
             <h4 class="font-Nekst col-span-full text-base leading-1.2 text-fblack">Выберите категорию (осталось 18 билетов!)</h4>
-=======
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Выберите категорию (осталось 18 билетов!)</h4>
->>>>>>> deef4cf (fix)
             <FormKit type="group">
                 <TicketsTable></TicketsTable>
             </FormKit>
         </div>
         <div class="flex flex-col gap-5">
-<<<<<<< HEAD
             <h4 class="font-Nekst col-span-full text-base leading-1.2 text-fblack">Промокод</h4>
             <FormKit type="text" label="Введите код"></FormKit>
         </div>
         <div class="flex flex-col gap-5">
             <h4 class="font-Nekst col-span-full text-base leading-1.2 text-fblack">Дополнительные услуги</h4>
-=======
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Промокод</h4>
-            <FormKit type="text" label="Введите код"></FormKit>
-        </div>
-        <div class="flex flex-col gap-5">
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Дополнительные услуги</h4>
->>>>>>> deef4cf (fix)
             <FormKit type="group">
                 <TicketsTable></TicketsTable>
             </FormKit>
         </div>
         <div class="flex flex-col gap-5">
-<<<<<<< HEAD
             <h4 class="font-Nekst col-span-full text-base leading-1.2 text-fblack">Комментарий к заказу</h4>
-=======
-            <h4 class="font-Nekst col-span-full text-base leading-[1.2] text-fblack">Комментарий к заказу</h4>
->>>>>>> deef4cf (fix)
             <FormKit type="text" label="Введите текст"></FormKit>
         </div>
         <div class="grid grid-cols-2 gap-5">

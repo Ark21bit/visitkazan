@@ -1,9 +1,5 @@
 <template>
-<<<<<<< HEAD
     <div class="flex gap-7.5 flex-col lg:flex-row px-5 sm:px-7.5 py-7.5 lg:p-15 lg:bg-[url(/feedbackBg.svg)] bg-[48px_bottom] bg-no-repeat bg-footer rounded-5 lg:rounded-7.5 justify-between">
-=======
-    <div class="flex gap-7.5 flex-col lg:flex-row px-5 sm:px-7.5 py-7.5 lg:p-15 lg:bg-[url(/feedbackBg.svg)] bg-[48px_bottom] bg-no-repeat bg-footer rounded-[20px] lg:rounded-[30px] justify-between">
->>>>>>> deef4cf (fix)
         <div class="text-white">
             <h2 class="font-Nekst text-7 sm:text-8 lg:text-10.5 leading-1.1">Появились вопросы?</h2>
             <p class="mt-7.5 sm:mt-4 lg:max-w-sm text-sm lg:text-base leading-1.4">Задайте их нам прямо сейчас и мы ответим Вам в самое ближайшее время!</p>

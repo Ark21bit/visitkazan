@@ -16,17 +16,10 @@
                     <Button class="w-full lg:w-fit" @click="openModal">Заказать экскурсию</Button>
                 </div>
                 <div>
-<<<<<<< HEAD
                     <h2 class="font-Nekst text-xl lg:text-2xl lg:leading-1.1 leading-1.1 text-fblack">Общее описание</h2>
                     <div class="border-t border-fline2 mt-8 sm:mt-6 lg:mt-7.5">
                         <div class="border-b border-fline2 py-4 flex lt-sm:flex-col sm:items-center justify-between gap-2.5">
                             <p class="text-sm lg:text-base text-fblack leading-1.4">
-=======
-                    <h2 class="font-Nekst text-xl lg:text-2xl lg:leading-[1.1] leading-[1.1] text-fblack">Общее описание</h2>
-                    <div class="border-t border-fline2 mt-8 sm:mt-6 lg:mt-7.5">
-                        <div class="border-b border-fline2 py-4 flex max-sm:flex-col sm:items-center justify-between gap-2.5">
-                            <p class="text-sm lg:text-base text-fblack leading-[1.4]">
->>>>>>> deef4cf (fix)
                                 <Icon name="Calendar" class="text-2xl mr-2.5 lg:mr-3.5 text-fblue"></Icon>Ближайшая дата
                             </p>
                             <p class="text-sm lg:text-base text-fblack leading-1.4 font-medium">25 февраля</p>

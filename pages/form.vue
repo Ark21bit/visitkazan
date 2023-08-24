@@ -8,13 +8,8 @@
     </Modal> -->
     <Modal @close="closeModal" :is-show="isModalShow" size="xs">
         <div class="flex flex-col items-center mt-4">
-<<<<<<< HEAD
             <h2 class="text-xl lg:text-2xl font-Nekst leading-1.2 lg:leading-1.2 text-fblack">Спасибо</h2>
             <p class="mt-4 lg:mt-2.5 text-fmain text-sm leading-1.2 text-center">Ваша заявка успешно отправлена</p>
-=======
-            <h2 class="text-xl lg:text-2xl font-Nekst leading-[1.2] lg:leading-[1.2] text-fblack">Спасибо</h2>
-            <p class="mt-4 lg:mt-2.5 text-fmain text-sm leading-[1.2] text-center">Ваша заявка успешно отправлена</p>
->>>>>>> deef4cf (fix)
             <Button class="mt-7.5" tag="RouterLink" to="/">На главную</Button>
         </div>
     </Modal>

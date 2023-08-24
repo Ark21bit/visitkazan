@@ -55,13 +55,8 @@
             <p class="text-sm leading-1.4 text-fblack lt-lg:font-medium">Какой-то текст с примечанием на пару предложений</p>
         </div>
         <div class="flex flex-col lg:flex-row gap-4 lg:gap-2.5 lg:py-5 justify-between lg:border-y border-fline2">
-<<<<<<< HEAD
             <h2 class="text-lg font-Nekst text-fblack leading-1.2">Итого к оплате</h2>
             <p class="text-base lg:text-lg font-semibold leading-1.2 lg:leading-1.2 text-fblue border-fline2 lt-lg:py-4 lg:border-none border-y">1999 руб.</p>
-=======
-            <h2 class="text-lg font-Nekst text-fblack leading-[normal]">Итого к оплате</h2>
-            <p class="text-base lg:text-lg font-semibold leading-[normal] lg:leading-[normal] text-fblue border-fline2 max-lg:py-4 lg:border-none border-y">1999 руб.</p>
->>>>>>> deef4cf (fix)
         </div>
         <div class="flex flex-col lg:flex-row gap-4 lg:gap-3">
             <Button>Подтверждаю заказ</Button>

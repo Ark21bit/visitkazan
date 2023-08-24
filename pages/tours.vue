@@ -10,7 +10,6 @@
                     <h1 class="font-Nekst text-2xl lg:text-4xl leading-1.1 lg:leading-1.1 text-fblack -mb-2.5">Остров-град Свияжск</h1>
                     <Tabs>
                         <template #buttonHeader>
-<<<<<<< HEAD
                             <Button class="w-full at-[1340px]:w-fit my-auto ml-auto lt-lg:mt-7.5" @click="openModal">Заказать экскурсию</Button>
                         </template>
                         <Tab name="Программа тура" title="Программа тура" class="flex flex-col gap-7.5 lg:gap-7 mt-7.5">
@@ -28,30 +27,10 @@
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Кремль</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-=======
-                            <Button class="w-full min-[1340px]:w-fit my-auto ml-auto max-lg:mt-7.5" @click="openModal">Заказать экскурсию</Button>
-                        </template>
-                        <Tab name="Программа тура" title="Программа тура" class="flex flex-col gap-7.5 lg:gap-7 mt-7.5">
-                            <div>
-                                <h2 class="text-fblack text-lg leading-[1.2] font-Nekst before:w-[7px] gap-2 before:h-[7px] before:rounded-full before:bg-fblue flex items-start before:mt-[.5em] before:shrink-0">Первый день</h2>
-                                <div class="flex flex-col gap-5 lg:gap-4 mt-5">
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Какой нибудь длинный заголовок</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Кремль</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
->>>>>>> deef4cf (fix)
                                     </div>
                                 </div>
                             </div>
                             <div>
-<<<<<<< HEAD
                                 <h2 class="text-fblack text-lg leading-1.2 font-Nekst before:w-7px gap-2 before:h-7px before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0">Первый день</h2>
                                 <div class="flex flex-col gap-5 lg:gap-4 mt-5">
                                     <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
@@ -101,57 +80,6 @@
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Время</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-=======
-                                <h2 class="text-fblack text-lg leading-[1.2] font-Nekst before:w-[7px] gap-2 before:h-[7px] before:rounded-full before:bg-fblue flex items-start before:mt-[.5em] before:shrink-0">Первый день</h2>
-                                <div class="flex flex-col gap-5 lg:gap-4 mt-5">
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Завтрак</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>  
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Отель</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>                                
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Трансфер</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>                                
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Радиооборудование</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Билеты</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Услуги гида</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Панорамы (фотолокации)</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
-                                    </div>
-                                    <div class="flex max-lg:justify-between max-lg:flex-wrap gap-4 min-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-[15px] items-start">
-                                       <p class="lg:w-[120px] px-3 py-[9px] shrink-0 text-fblack font-medium leading-[normal] text-center bg-gray rounded-[35px]">14:00-15:00</p>
-                                       <img src="" alt="" class="w-[35px] h-[35px] shrink-0">
-                                       <p class="w-full lg:flex-[56_1_0] lg:max-w-[224px] text-fblack font-medium leading-[1.4]">Время</p>
-                                       <p class="w-full lg:flex-[95_1_0] lg:max-w-[380px] text-fmain leading-[1.4]">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
->>>>>>> deef4cf (fix)
                                     </div>
                                 </div>
                             </div>
