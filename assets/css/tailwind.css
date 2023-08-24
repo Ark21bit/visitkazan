@@ -1,5 +1,5 @@
 @import '@unocss/reset/tailwind.css';
-
+@layer default{
 	#__nuxt {
 		--at-apply: "flex min-h-screen flex-col justify-start";
 	}
@@ -39,3 +39,4 @@
     .contain-paint{
         contain: paint;
     }
+}

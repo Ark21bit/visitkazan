@@ -1,5 +1,6 @@
 import { defineConfig, presetUno, presetWebFonts, transformerDirectives, transformerVariantGroup } from 'unocss'
 import presetFormKit from 'unocss-preset-formkit'
+import {} from "@formkit/themes"
 export default defineConfig({
     presets: [
         presetUno(),
