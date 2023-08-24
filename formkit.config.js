@@ -19,5 +19,5 @@ export default {
         counter: createInput(counter, {
             component:counter
         }),
-    },    
+    },
 }

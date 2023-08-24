@@ -1,6 +1,5 @@
 import { defineConfig, presetUno, presetWebFonts, transformerDirectives, transformerVariantGroup } from 'unocss'
-import presetFormKit from 'unocss-preset-formkit'
-import {} from "@formkit/themes"
+import formKitUnocssPlugin from "@formkit/themes/unocss"
 export default defineConfig({
     presets: [
         presetUno(),
@@ -9,11 +8,11 @@ export default defineConfig({
                 Inter: 'Inter'
             },
         }),
-        presetFormKit()
+        formKitUnocssPlugin()
     ],
     content: {
         pipeline: {
-            include: ['./pages/**/*.vue','./components/**/*.vue', './app.vue', './error.vue', './layouts/**/*.vue',"./FormkitTheme.js"],
+            include: ['./pages/**/*.vue', './components/**/*.vue', './app.vue', './error.vue', './layouts/**/*.vue', "./FormkitTheme.js"],
             exclude: ['node_modules', '.git', '.output'],
         }
     },
