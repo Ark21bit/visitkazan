@@ -13,7 +13,7 @@ export default defineConfig({
     content: {
         pipeline: {
             include: ['./pages/**/*.vue', './components/**/*.vue', './app.vue', './error.vue', './layouts/**/*.vue', "./FormkitTheme.js"],
-            exclude: ['node_modules', '.git', '.output'],
+            exclude: ['node_modules'],
         }
     },
     blocklist: [

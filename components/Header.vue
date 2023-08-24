@@ -1,6 +1,6 @@
 <template>
     <header v-bind="$attrs" class="grid-container py-4 lg:py-5 z-20">
-        <div class="flex lt-lg:flex-col gap-5 lg:gap-3 lg:justify-between lg:items-center py-2.5 lg:py-3.25 px-4 sm:px-5 bg-white rounded-3.75 shadow-[0_4px_34px_0] shadow-xl shadow-black/5">
+        <div class="flex lt-lg:flex-col gap-5 lg:gap-3 lg:justify-between lg:items-center py-2.5 lg:py-3.25 px-4 sm:px-5 bg-white rounded-3.75 shadow-[0_4px_34px_0] shadow-black/5">
             <div class="flex justify-between items-center">
                 <CustomLink to="/" class="shrink-0"><img src="/logo.png" alt="" class="w-116px lg:w-140px lg:h-43px h-35px"></CustomLink>
                 <button :class="isMobileMenuShow ? 'h-5' : 'h-3.5'" @click="menuToggle" class="lg:hidden flex flex-col justify-between w-26px transition-height ease-linear duration-100">
