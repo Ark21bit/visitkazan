@@ -110,7 +110,7 @@
                                 </template>
                                 <TableTr>
                                     <TableTd class="flex-col sm:flex-row" data-label="Отель">
-                                        <CustomLink class="underline">Название отеля</CustomLink>
+                                        <NuxtLinkLocale to="/test" class="underline">Название отеля</NuxtLinkLocale>
                                     </TableTd>
                                     <TableTd class="flex-col sm:flex-row" data-label="1-ное размещение">
                                         3999 ₽
@@ -124,7 +124,7 @@
                                 </TableTr>
                                 <TableTr>
                                     <TableTd class="flex-col sm:flex-row" data-label="Отель">
-                                        <CustomLink class="underline">Название отеля</CustomLink>
+                                        <NuxtLinkLocale to="/test" class="underline">Название отеля</NuxtLinkLocale>
                                     </TableTd>
                                     <TableTd class="flex-col sm:flex-row" data-label="1-ное размещение">
                                         3999 ₽
@@ -138,7 +138,7 @@
                                 </TableTr>
                                 <TableTr>
                                     <TableTd class="flex-col sm:flex-row" data-label="Отель">
-                                        <CustomLink class="underline">Название отеля</CustomLink>
+                                        <NuxtLinkLocale to="/test" class="underline">Название отеля</NuxtLinkLocale>
                                     </TableTd>
                                     <TableTd class="flex-col sm:flex-row" data-label="1-ное размещение">
                                         3999 ₽
@@ -152,7 +152,7 @@
                                 </TableTr>
                                 <TableTr>
                                     <TableTd class="flex-col sm:flex-row" data-label="Отель">
-                                        <CustomLink class="underline">Название отеля</CustomLink>
+                                        <NuxtLinkLocale to="/test" class="underline">Название отеля</NuxtLinkLocale>
                                     </TableTd>
                                     <TableTd class="flex-col sm:flex-row" data-label="1-ное размещение">
                                         3999 ₽

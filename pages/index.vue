@@ -26,10 +26,10 @@
                         Казань – спортивная столица России! Любителям побеждать точно понравится тур по местам исторических соревнований и мировых рекордов
                         <span class="text-fblack">(3 дня 2 ночи)</span>
                     </p>
-                    <custom-link class="w-fit mt-7.5 text-fblue text-sm leading-1.4 uppercase flex gap-3 items-center" to="/test">
+                    <NuxtLinkLocale to="/test" class="w-fit mt-7.5 text-fblue text-sm leading-1.4 uppercase flex gap-3 items-center">
                         УЗНАТЬ БОЛЬШЕ
                         <Icon name="Arrow2" size="21" height="12"></Icon>
-                    </custom-link>
+                    </NuxtLinkLocale>
                 </div>
                 <Button class="mt-10 col-span-full w-full">Смотреть все экскурсии</Button>
             </div>

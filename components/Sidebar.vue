@@ -12,53 +12,53 @@
             <Dropdown class="px-5 text-fblack font-medium text-base leading-1.2" title="Экскурсии">
                 <ul class="flex flex-col mt-5 gap-4 pb-5">
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Казань</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Казань</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Татарстан</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Татарстан</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Обзорные</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Обзорные</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Автобусные</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Автобусные</NuxtLinkLocale>
                     </li>
                 </ul>
             </Dropdown>
             <Dropdown class="px-5 text-fblack font-medium text-base leading-1.2" title="Туры">
                 <ul class="flex flex-col mt-5 gap-4 pb-5">
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Казань</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Казань</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Татарстан</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Татарстан</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Обзорные</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Обзорные</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Автобусные</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Автобусные</NuxtLinkLocale>
                     </li>
                 </ul>
             </Dropdown>
             <Dropdown class="px-5 text-fblack font-medium text-base leading-1.2" title="Услуги">
                 <ul class="flex flex-col mt-5 gap-4 pb-5">
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Казань</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Казань</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Татарстан</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Татарстан</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Обзорные</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Обзорные</NuxtLinkLocale>
                     </li>
                     <li class="before:w-1.5 before:h-1.5 before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0 gap-2.5">
-                        <CustomLink to="/test" class="text-fblack font-medium text-base leading-1.2">Автобусные</CustomLink>
+                        <NuxtLinkLocale to="/test" class="text-fblack font-medium text-base leading-1.2">Автобусные</NuxtLinkLocale>
                     </li>
                 </ul>
             </Dropdown>
-            <CustomLink to="/test" class="px-5 text-fblack font-medium text-base leading-1.2">Индивидуальные экскурсии</CustomLink>
-            <CustomLink to="/test" class="px-5 text-fblack font-medium text-base leading-1.2">Контакты</CustomLink>
+            <NuxtLinkLocale to="/test" class="px-5 text-fblack font-medium text-base leading-1.2">Индивидуальные экскурсии</NuxtLinkLocale>
+            <NuxtLinkLocale to="/test" class="px-5 text-fblack font-medium text-base leading-1.2">Контакты</NuxtLinkLocale>
         </div>
     </div>
 </template>

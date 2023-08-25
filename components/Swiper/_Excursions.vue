@@ -1,9 +1,9 @@
 <template>
     <Swiper class="w-full h-full flex relative" :options="options">
         <swiper-slide v-for="n in 15" class="w-fit">
-            <CustomLink to="/test" class="flex text-sm shrink-0 text-fblack transition-colors duration-500 ease-linear hover:text-white px-4 py-2.25 bg-gray hover:bg-fblue rounded-full">
+            <NuxtLinkLocale to="/test" class="flex text-sm shrink-0 text-fblack transition-colors duration-500 ease-linear hover:text-white px-4 py-2.25 bg-gray hover:bg-fblue rounded-full">
                 Экскурсия в храм всех религий
-            </CustomLink>
+            </NuxtLinkLocale>
         </swiper-slide>
     </Swiper>
 </template>

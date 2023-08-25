@@ -17,7 +17,7 @@
                 Отзывы:
                 <span class="text-fblack font-medium">10</span>
             </div>
-            <CustomLink to="/" class="lg:mt-1 text-fblack leading-1.2 text-sm underline">Узнать подробнее</CustomLink>
+            <NuxtLinkLocale to="/test" class="lg:mt-1 text-fblack leading-1.2 text-sm underline">Узнать подробнее</NuxtLinkLocale>
         </div>
         <div class="p-5">
             <Button class="w-full" @click="$emit('order')">Заказать <span class="ml-auto font-Inter text-lg leading-1.4 font-semibold uppercase">1999₽</span></Button>

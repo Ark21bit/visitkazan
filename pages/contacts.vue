@@ -10,19 +10,19 @@
         <div>
             <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">Телефоны</h3>
             <div class="mt-4 lg:mt-5 pt-4 lg:pt-5 gap-2 border-t border-fline3 flex flex-col">
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (800)-201-42-64</CustomLink>
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (843)-299-42-64</CustomLink>
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (843)-299-43-40</CustomLink>
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (962)-558-35-19</CustomLink>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (800)-201-42-64</NuxtLinkLocale>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (843)-299-42-64</NuxtLinkLocale>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (843)-299-43-40</NuxtLinkLocale>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (962)-558-35-19</NuxtLinkLocale>
             </div>
         </div>
         <div>
             <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">Почта</h3>
             <div class="mt-4 lg:mt-5 pt-4 lg:pt-5 gap-2 border-t border-fline3 flex flex-col">
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">welcome@pgrata16.ru</CustomLink>
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">grouptour@pgrata16.ru</CustomLink>
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">tour@pgrata16.ru</CustomLink>
-                <CustomLink to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">vizitkzn@pgrata16.ru</CustomLink>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">welcome@pgrata16.ru</NuxtLinkLocale>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">grouptour@pgrata16.ru</NuxtLinkLocale>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">tour@pgrata16.ru</NuxtLinkLocale>
+                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">vizitkzn@pgrata16.ru</NuxtLinkLocale>
             </div>
         </div>
         <div>
