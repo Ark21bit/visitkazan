@@ -10,19 +10,19 @@
                     <h1 class="font-Nekst text-2xl lg:text-4xl leading-1.1 lg:leading-1.1 text-fblack -mb-2.5">Остров-град Свияжск</h1>
                     <Tabs>
                         <template #buttonHeader>
-                            <Button class="w-full at-[1340px]:w-fit my-auto ml-auto lt-lg:mt-7.5" @click="openModal">Заказать экскурсию</Button>
+                            <Button class="w-full 1340px:w-fit my-auto ml-auto lg:mt-7.5" @click="openModal">Заказать экскурсию</Button>
                         </template>
                         <Tab name="Программа тура" title="Программа тура" class="flex flex-col gap-7.5 lg:gap-7 mt-7.5">
                             <div>
                                 <h2 class="text-fblack text-lg leading-1.2 font-Nekst before:w-7px gap-2 before:h-7px before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0">Первый день</h2>
                                 <div class="flex flex-col gap-5 lg:gap-4 mt-5">
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Какой нибудь длинный заголовок</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Кремль</p>
@@ -33,49 +33,49 @@
                             <div>
                                 <h2 class="text-fblack text-lg leading-1.2 font-Nekst before:w-7px gap-2 before:h-7px before:rounded-full before:bg-fblue flex items-start before:mt-.5em before:shrink-0">Первый день</h2>
                                 <div class="flex flex-col gap-5 lg:gap-4 mt-5">
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Завтрак</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Отель</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Трансфер</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Радиооборудование</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Билеты</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Услуги гида</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Панорамы (фотолокации)</p>
                                         <p class="w-full lg:flex-[95_1_0] lg:max-w-380px text-fmain leading-1.4">Давно хотела посетить Казань! И вот мы наконец выбрались с семьей) очень благодарны за экскурсию, все прошло великолепно)</p>
                                     </div>
-                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 at-[1200px]:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0] shadow-black/4 rounded-3.75 items-start">
+                                    <div class="flex lt-lg:justify-between lt-lg:flex-wrap gap-4 1200px:gap-10 text-sm p-5 lg:p-4 border border-black/5 shadow-[0_4px_43px_0_rgba(0,0,0,.04)] rounded-3.75 items-start">
                                         <p class="lg:w-120px px-3 py-2.25 shrink-0 text-fblack font-medium leading-1.2 text-center bg-gray rounded-8.75">14:00-15:00</p>
                                         <img src="" alt="" class="w-35px h-35px shrink-0">
                                         <p class="w-full lg:flex-[56_1_0] lg:max-w-224px text-fblack font-medium leading-1.4">Время</p>

@@ -12,8 +12,10 @@ export default defineConfig({
     ],
     content: {
         pipeline: {
-            include: ['./pages/**/*.vue', './components/**/*.vue', './app.vue', './error.vue', './layouts/**/*.vue', "./FormkitTheme.js"],
-            exclude: ['node_modules'],
+            include: [
+                /\.(vue)($|\?)/,
+                './FormkitTheme.js'
+            ]
         }
     },
     blocklist: [
@@ -53,8 +55,15 @@ export default defineConfig({
             "tableTh": "#2B465A",
             "gray": "#F4F4F4"
         },
+        breakpoints: {
+            sm: "640px",
+            md: "768px",
+            lg: "1024px",
+            "1200px": '1200px',
+            "1340px": '1340px',
+        },
     },
     rules: [
-        [/^leading-([\.\d]+)$/, ([_, num]) => ({ "line-height": `${num}` })],
-    ],
+        [/^leading-([\.\d]+)$/, ([_, num]) => ({ "line-height": `${num}` })]
+    ]
 })

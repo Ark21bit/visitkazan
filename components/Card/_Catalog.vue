@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col rounded-2.5 lg:rounded-3.75 bg-white overflow-hidden shadow-[0_4px_23px_0] shadow-black/7 ring-2 ring-transparent hover:ring-fblue transition-shadow duration-500 ease-linear">
+    <div class="flex flex-col rounded-2.5 lg:rounded-3.75 bg-white overflow-hidden shadow-[0_4px_23px_0_rgba(0,0,0,.07)] ring-2 ring-transparent hover:ring-fblue transition-shadow duration-500 ease-linear">
         <div class="h-204px sm:h-237px lg:h-230px relative">
             <img src="/img.png" alt="" class="w-full h-full object-cover">
             <div class="absolute text-white font-semibold left-5 top-5 px-5 text-base py-1.5 bg-fred rounded-full">SALE</div>

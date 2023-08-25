@@ -1,15 +1,15 @@
 <template>
     <header v-bind="$attrs" class="grid-container py-4 lg:py-5 z-20">
-        <div class="flex lt-lg:flex-col gap-5 lg:gap-3 lg:justify-between lg:items-center py-2.5 lg:py-3.25 px-4 sm:px-5 bg-white rounded-3.75 shadow-[0_4px_34px_0] shadow-black/5">
+        <div class="flex lt-lg:flex-col gap-5 lg:gap-3 lg:justify-between lg:items-center py-2.5 lg:py-3.25 px-4 sm:px-5 bg-white rounded-3.75 shadow-[0_4px_34px_0_rgba(0,0,0,.05)]">
             <div class="flex justify-between items-center">
                 <CustomLink to="/" class="shrink-0"><img src="/logo.png" alt="" class="w-116px lg:w-140px lg:h-43px h-35px"></CustomLink>
-                <button :class="isMobileMenuShow ? 'h-5' : 'h-3.5'" @click="menuToggle" class="lg:hidden flex flex-col justify-between w-26px transition-height ease-linear duration-100">
-                    <span :class="{ 'rotate-45': isMobileMenuShow }" class="w-full h-0.5 bg-fblack rounded-.25 origin-[0] transition-transform ease-linear duration-500" />
+                <button :class="isMobileMenuShow ? 'h-3.5' : 'h-3.5'" @click="menuToggle" class="lg:hidden flex flex-col justify-between w-26px transition-height ease-linear duration-100">
+                    <span :class="{ '-rotate-45': isMobileMenuShow }" class="w-full h-0.5 bg-fblack rounded-.25 origin-right transition-transform ease-linear duration-500" />
                     <span :class="{ 'opacity-0': isMobileMenuShow }" class="w-full h-0.5 bg-fblack rounded-.25 transition-opacity ease-linear duration-500" />
-                    <span :class="{ '-rotate-45': isMobileMenuShow }" class="w-full h-0.5 bg-fblack rounded-.25 origin-[0] transition-transform ease-linear duration-500" />
+                    <span :class="{ 'rotate-45': isMobileMenuShow }" class="w-full h-0.5 bg-fblack rounded-.25 origin-right transition-transform ease-linear duration-500" />
                 </button>
             </div>
-            <div class="flex-col gap-7.5 lg:contents -mx-5 border-fline2 border-t" :class="isMobileMenuShow ? 'flex' : 'hidden'">
+            <div class="flex-col gap-7.5 lg:contents -mx-4 sm:-mx-5 border-fline2 border-t" :class="isMobileMenuShow ? 'flex' : 'hidden'">
                 <nav class="lg:hidden flex flex-col">
                     <Dropdown title="Экскурсии" class="py-4 px-5 border-b border-fline2">
                         <div class="flex flex-col mt-5 gap-4">

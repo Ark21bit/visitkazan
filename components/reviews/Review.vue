@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-2.5 p-5 bg-white border border-black/5 shadow-[0_4px_23px_0] shadow-black/7 rounded-3.75">
+    <div class="flex flex-col gap-2.5 p-5 bg-white border border-black/5 shadow-[0_4px_23px_0_rgba(0,0,0,.07)] rounded-3.75">
         <h3 class="font-semibold text-lg text-fblack leading-1.2">Иван Иванонв</h3>
         <p class="text-fblack text-sm leading-1.2">Древний город Болгар</p>
         <Rating :rating="5" class="text-fblue" />

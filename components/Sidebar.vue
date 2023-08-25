@@ -3,9 +3,9 @@
         <div class="flex items-center gap-2 justify-between px-4 lg:px-5 py-5 text-fblack">
             <p class="text-base uppercase font-medium leading-1.2">меню</p>
             <button :class="isShow ? 'h-5' : 'h-3.5'" @click="isShow = !isShow" class="lg:hidden flex flex-col justify-between w-26px transition-height ease-linear duration-100">
-                <span :class="{ 'rotate-45': isShow }" class="w-full h-0.5 bg-fblack rounded-.25 origin-[0] transition-transform ease-linear duration-500" />
+                <span :class="{ '-rotate-45': isShow }" class="w-full h-0.5 bg-fblack rounded-.25 0origin-right transition-transform ease-linear duration-500" />
                 <span :class="{ 'opacity-0': isShow }" class="w-full h-0.5 bg-fblack rounded-.25 transition-opacity ease-linear duration-500" />
-                <span :class="{ '-rotate-45': isShow }" class="w-full h-0.5 bg-fblack rounded-.25 origin-[0] transition-transform ease-linear duration-500" />
+                <span :class="{ 'rotate-45': isShow }" class="w-full h-0.5 bg-fblack rounded-.25 origin-right transition-transform ease-linear duration-500" />
             </button>
         </div>
         <div class="flex-col gap-5 py-5 border-t border-fline2" :class="isShow ? 'flex' : 'lt-lg:hidden lg:flex'">

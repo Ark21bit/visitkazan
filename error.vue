@@ -1,6 +1,6 @@
 <template>
     <Header></Header>
-    <main class="grid-container grow bg-[url(/errorBg.svg)] py-20 bg-[center_bottom] bg-no-repeat items-center h-700px">
+    <main class="grid-container grow bg-([url(/errorBg.svg)] [position:center_bottom] no-repeat) py-20 items-center h-700px">
         <div class="flex flex-col gap-2.5 items-center text-center">
             <p class="text-fblue text-8xl font-bold">404</p>
             <h1 class="font-Nekst text-4xl lg:text-14.5 leading-1.1 text-fblack">Visit <span class="text-fblue">Kazan</span></h1>

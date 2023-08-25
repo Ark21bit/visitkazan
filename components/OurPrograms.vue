@@ -1,10 +1,10 @@
 <template>
     <div>
-        <h2 class="[&>*]:m-1 font-Nekst text-6.5 lg:text-4xl text-fblack">Наши программы</h2>
+        <h2 class="font-Nekst text-6.5 lg:text-4xl text-fblack">Наши программы</h2>
         <div class="mt-6 lg:mt-12.5 grid grid-cols-1 lg:grid-cols-2 justify-between gap-7.5">
             <div class="grid gap-x-6 grid-cols-1 sm:lt-lg:grid-cols-2">
-                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline">
-                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4 text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4">
                         <span class="lt-lg:hidden">01</span>
                         <div class="flex flex-col lg:flex-row lg:items-center justify-between grow max-w-455px">
                             <div>Классические программы</div>
@@ -19,8 +19,8 @@
                         <img src="/img.png" class="object-cover rounded-2.5 w-full h-85px sm:h-113px" alt="">
                     </div>
                 </div>
-                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline">
-                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4 text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4">
                         <span class="lt-lg:hidden">01</span>
                         <div class="flex flex-col lg:flex-row lg:items-center justify-between grow max-w-455px">
                             <div>Туры для школьников</div>
@@ -35,8 +35,8 @@
                         <img src="/img.png" class="object-cover rounded-2.5 w-full h-85px sm:h-113px" alt="">
                     </div>
                 </div>
-                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline">
-                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4 text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4">
                         <span class="lt-lg:hidden">01</span>
                         <div class="flex flex-col lg:flex-row lg:items-center justify-between grow max-w-455px">
                             <div>Туры на выходные</div>
@@ -51,8 +51,8 @@
                         <img src="/img.png" class="object-cover rounded-2.5 w-full h-85px sm:h-113px" alt="">
                     </div>
                 </div>
-                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline">
-                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4 text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4">
                         <span class="lt-lg:hidden">01</span>
                         <div class="flex flex-col lg:flex-row lg:items-center justify-between grow max-w-455px">
                             <div>Эконом туры</div>
@@ -67,8 +67,8 @@
                         <img src="/img.png" class="object-cover rounded-2.5 w-full h-85px sm:h-113px" alt="">
                     </div>
                 </div>
-                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline">
-                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4 text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4">
                         <span class="lt-lg:hidden">01</span>
                         <div class="flex flex-col lg:flex-row lg:items-center justify-between grow max-w-455px">
                             <div>VIP программы</div>
@@ -83,8 +83,8 @@
                         <img src="/img.png" class="object-cover rounded-2.5 w-full h-85px sm:h-113px" alt="">
                     </div>
                 </div>
-                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline">
-                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4 text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                <div class="flex w-full gap-6 sm:lt-lg:[&:nth-child(2)]:border-t first:border-t py-5 border-b border-fline text-fblack hover:text-fblue transition-colors duration-500 ease-linear">
+                    <div class="grow flex justify-between gap-2 group/program text-lg lg:text-xl font-medium leading-1.4">
                         <span class="lt-lg:hidden">01</span>
                         <div class="flex flex-col lg:flex-row lg:items-center justify-between grow max-w-455px">
                             <div>1001 удовольствие</div>

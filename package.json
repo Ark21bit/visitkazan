@@ -9,16 +9,16 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@formkit/nuxt": "^0.18.4",
+    "@formkit/nuxt": "^0.18.5",
     "@nuxt/devtools": "latest",
-    "@types/node": "^18.17.8",
+    "@types/node": "^18.17.11",
     "@unocss/nuxt": "^0.55.2",
     "@vueuse/nuxt": "^10.3.0",
     "nuxt": "^3.6.5",
     "nuxt-icon": "^0.5.0"
   },
   "dependencies": {
-    "@formkit/addons": "^0.18.4",
+    "@formkit/addons": "^0.18.5",
     "@vueuse/components": "^10.3.0",
     "swiper": "^10.2.0",
     "vue-yandex-maps": "^1.1.0"

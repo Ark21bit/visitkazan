@@ -9,7 +9,7 @@
                     <Breadcrumbs class="mb-5 lt-lg:hidden"></Breadcrumbs>
                     <h1 class="font-Nekst text-2xl lg:text-4xl leading-1.1 text-fblack lt-lg:-mb-2.5">Название отеля</h1>
                     <div class="flex lg:flex-wrap gap-2.5 overflow-auto scroll-h-0">
-                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0] shadow-black/7 border border-black/5">
+                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0_rgba(0,0,0,.07)] border border-black/5">
                             <div class="flex gap-2.5 px-3 py-2.5 min-w-max text-black2 font-medium leading-1.2 text-base items-center">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -24,7 +24,7 @@
                                 Шведский стол
                             </div>
                         </div>
-                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0] shadow-black/7 border border-black/5">
+                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0_rgba(0,0,0,.07)] border border-black/5">
                             <div class="flex gap-2.5 px-3 py-2.5 min-w-max text-black2 font-medium leading-1.2 text-base items-center">
                                 <span class="shrink-0">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -39,7 +39,7 @@
                                 Континентальный завтрак
                             </div>
                         </div>
-                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0] shadow-black/7 border border-black/5">
+                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0_rgba(0,0,0,.07)] border border-black/5">
                             <div class="flex gap-2.5 px-3 py-2.5 min-w-max text-black2 font-medium leading-1.2 text-base items-center">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -54,7 +54,7 @@
                                 Паркинг
                             </div>
                         </div>
-                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0] shadow-black/7 border border-black/5">
+                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0_rgba(0,0,0,.07)] border border-black/5">
                             <div class="flex gap-2.5 px-3 py-2.5 min-w-max text-black2 font-medium leading-1.2 text-base items-center">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -69,7 +69,7 @@
                                 Панорманый вид
                             </div>
                         </div>
-                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0] shadow-black/7 border border-black/5">
+                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0_rgba(0,0,0,.07)] border border-black/5">
                             <div class="flex gap-2.5 px-3 py-2.5 min-w-max text-black2 font-medium leading-1.2 text-base items-center">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -84,7 +84,7 @@
                                 WI FI
                             </div>
                         </div>
-                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0] shadow-black/7 border border-black/5">
+                        <div class="flex gap-2.5 rounded-full shadow-[0_4px_23px_0_rgba(0,0,0,.07)] border border-black/5">
                             <div class="flex gap-2.5 px-3 py-2.5 min-w-max text-black2 font-medium leading-1.2 text-base items-center">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">

@@ -4,7 +4,7 @@
         <Icon name="DropdownSelect" size="15" :class="{ 'rotate-180': isShow }" class="transition-transform duration-500 ease-linear p-0.5 box-content shrink-0"></Icon>
         <Transition enter-from-class="opacity-0" leave-to-class="opacity-0" enter-active-class="transition-opacity duration-500 easy-linear" leave-active-class="transition-opacity duration-500 easy-linear">
             <div v-show="isShow" class="absolute top-full pt-2.5">
-                <div class="rounded-lg shadow-[0_4px_23px_0] shadow-fblack/7 overflow-hidden">
+                <div class="rounded-lg shadow-[0_4px_23px_0_rgba(0,0,0,.07)] overflow-hidden">
                     <slot></slot>
                 </div>
             </div>

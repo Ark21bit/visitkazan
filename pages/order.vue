@@ -2,7 +2,7 @@
     <h1 class="mt-7.5 lg:mt-5 text-2xl lg:text-4xl text-fblack font-Nekst leading-1.1 lg:leading-1.1 lg:text-center">Подтвердите бронирование</h1>
     <p class="mt-5 lg:mt-7.5 text-fblack text-xl lg:text-2xl lg:text-center font-semibold leading-1.2 lg:leading-1.2">Уважаемый(ая) <span class="text-fblue">Иван Иванов</span></p>
     <p class="mt-4 text-fmain text-sm lg:text-center leading-1.4">Благодарим за бронирование в Туристско-информационном центре</p>
-    <div class="flex mx-auto w-full flex-col gap-7.5 mt-7.5 rounded-3.75 shadow-[0_4px_23px_0] shadow-black/7 px-4 py-5 lg:p-7.5 max-w-854px">
+    <div class="flex mx-auto w-full flex-col gap-7.5 mt-7.5 rounded-3.75 shadow-[0_4px_23px_0_rgba(0,0,0,.07)] px-4 py-5 lg:p-7.5 max-w-854px">
         <div class="flex flex-col gap-4 lg:gap-3">
             <div class="flex flex-col lg:flex-row gap-2.5 pb-4 lg:pb-3 justify-between text-sm font-medium leading-1.4 text-fblack border-b border-fline2">
                 <p class="text-fmain">Название экскурсии</p>
