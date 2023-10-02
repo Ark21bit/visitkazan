@@ -1,35 +1,27 @@
 <template>
     <div class="h-218px sm:h-296px lg:h-361px">
-        <img src="/img2.png" class="w-full h-full object-cover rounded-3.75" alt="">
+        <img src="/imgs/about1.png" class="w-full h-full object-cover rounded-3.75" alt="">
     </div>
-    <div class="text-fblack flex lt-lg:flex-col gap-5 justify-between mt-7.5 lg:mt-12.5 border-b border-fline2">
+    <div class="text-fblack flex max-lg:flex-col gap-5 justify-between mt-7.5 lg:mt-12.5 pb-7.5 lg:pb-25 border-b border-fline2">
         <div class="flex-1 max-w-220px min-w-110px">
-            <h1 class="font-Nekst text-2xl lg:text-4xl leading-1.1">О нас</h1>
+            <h1 class="font-Nekst text-2xl lg:text-4xl leading-1.1 lg:leading-1.1">{{ pageInfo?.content?.title }}</h1>
         </div>
-        <div class="lg:max-w-2xl">
-            <h2 class="font-Nekst text-base lg:text-xl font-semibold leading-1.4">Экскурсионный центр города Казани открылся в 2010 году и был первым, кто стал проводить сборные ежедневные экскурсии по Казани и Татарстану.</h2>
-            <p class="text-fmain leading-1.4 text-sm mt-5">На нашем счету несколько высших наград Всероссийской туристской премии «Маршрут года» и Республиканского конкурса «Лидер туризма». Среди них – Гран-при в конкурсе «Маршруте года-2016» за интерактивную экскурсию «Казань пятью органами чувств» и
-                1
-                место в конкурсе «Маршруте года-2017» за гастрономическую экскурсию «Казан вкусов».
-                <br><br>
-                Наш Экскурсионный центр обеспечивал экскурсионное обслуживание участников и гостей XXVII Всемирной летней универсиады студентов 2013 в Казани, XVI Чемпионата мира ФИНА по водным видам спорта 2015 в Казани, Чемпионата мира по футболу 2018 года.
-                <br><br>
-                В период Чемпионата мира по футболу в расписании появились сборные экскурсии на разных иностранных языках, болельщикам предлагались уникальные программы с экстремальными активностями (дайвинг, прыжки с парашютом, посещением трассы). Для тех, кому наскучили стандартные экскурсии,
-                разработаны гастрономические и интерактивные программы, специально для казанцев запущен цикл авторских экскурсий «Казанские истории».
-                <br><br>
-                Мы надеемся, что впереди у нас еще много открытий и достижений,
-                которые мы совершим вместе с вами!
-            </p>
-            <p class="text-base lg:text-xl font-semibold leading-1.4 mt-5 lg:mt-7.5">До встречи в Казани! Ваш Экскурсионный центр г. Казани</p>
-        </div>
-        <div class="flex-1 max-w-220px mt-auto min-w-150px lt-lg:hidden">
-            <img src="/img.png" alt="" class="aspect-110/119 w-full">
+        <div class="text-sm leading-1.4 text-fmain lg:max-w-2xl [&>ul]:(flex py-3 flex-col gap-2 list-disc list-inside) [&>h3]:(font-semibold text-fblack text-base leading-1.4) lg:[&>h3]:(text-xl leading-1.4)" v-html="pageInfo?.content?.text_2"></div>
+        <div class="flex-1 max-w-220px mt-auto min-w-150px max-lg:hidden">
+            <img src="/imgs/about2.png" alt="" class="aspect-110/119 w-full">
         </div>
     </div>
+    <OurTeam class="col-[main-start_/_full-end] mt-12.5" :teams="pageInfo?.teams?.data"></OurTeam>
 </template>
 
 <script setup>
 definePageMeta({
     layout: "fixed"
 })
+
+const { data: pageInfo } = await useBaseFetch(`search/page`, {
+    key: 'about',
+    query: { key: 'about' }
+})
+
 </script>

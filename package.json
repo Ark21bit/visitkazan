@@ -9,19 +9,28 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@formkit/nuxt": "^0.18.5",
+    "@formkit/nuxt": "^1.2.1",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/i18n": "^8.0.0-rc.3",
-    "@types/node": "^18.17.11",
-    "@unocss/nuxt": "^0.55.2",
-    "@vueuse/nuxt": "^10.3.0",
-    "nuxt": "^3.6.5",
+    "@nuxtjs/i18n": "^8.0.0-rc.4",
+    "@types/node": "^20.8.0",
+    "@unocss/nuxt": "^0.56.4",
+    "@vueuse/nuxt": "^10.4.1",
+    "dayjs-nuxt": "^1.2.3",
+    "nuxt": "^3.7.4",
     "nuxt-icon": "^0.5.0"
   },
   "dependencies": {
-    "@formkit/addons": "^0.18.5",
-    "@vueuse/components": "^10.3.0",
-    "swiper": "^10.2.0",
+    "@formkit/addons": "^1.2.1",
+    "@formkit/auto-animate": "^0.8.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@vuepic/vue-datepicker": "^7.0.0",
+    "@vueuse/components": "^10.4.1",
+    "maska": "^2.1.10",
+    "pinia": "^2.1.6",
+    "swiper": "^10.3.1",
     "vue-yandex-maps": "^1.1.0"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }

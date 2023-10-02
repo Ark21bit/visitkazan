@@ -4,7 +4,7 @@
     </div>
     <ContainerSidebar class="mt-7.5 lg:mt-12.5 max-lg:gap-5 lg:bg-[url(/imgs/catalogBg.svg)] bg-no-repeat bg-[position:bottom_left] pb-36 -mb-36">
         <div class="grid grid-cols-1 sm:grid-cols-2 1200px:grid-cols-3 gap-7.5 h-fit">
-            <CardHotel v-for="card in pageInfo?.hotels?.data" :img="card?.media_preview" :rating="card?.stars" :slug="card?.slug" :title="card?.lang_info?.title" :description="card?.lang_info?.description"></CardHotel>
+            <CardBlog v-for="card in pageInfo?.articles?.data" :img="card?.media_preview" :slug="card?.slug" :title="card?.lang_info?.title" :description="card?.lang_info?.description"></CardBlog>
         </div>
     </ContainerSidebar>
 </template>
@@ -14,8 +14,8 @@ definePageMeta({
     layout: 'fixed'
 })
 const { data: pageInfo } = await useBaseFetch(`search/page`, {
-    key: 'hotels',
-    query: { key: 'hotels' }
+    key: 'blogs',
+    query: { key: 'blog' }
 })
 
 useSeoMeta({

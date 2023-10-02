@@ -1,51 +1,34 @@
 <template>
-    <h1 class="text-2xl lg:text-4xl leading-1.1 text-fblack font-Nekst lt-lg:max-w-290px">Контактная информация</h1>
+    <h1 class="text-2xl lg:text-4xl leading-1.1 lg:leading-1.1 text-fblack font-Nekst max-lg:max-w-290px">{{ generalConfig?.static_info?.global_words?.contact }}</h1>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-7.5 mt-7.5 lg:mt-12.5">
         <div>
-            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">Адрес</h3>
+            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">{{ generalConfig?.static_info?.global_words?.address }}</h3>
             <div class="mt-4 lg:mt-5 pt-4 lg:pt-5 gap-2 border-t border-fline3 flex flex-col">
-                <p class="text-sm leading-1.4 font-medium text-black2">г. Казань улица Маяковского 24А</p>
+                <p class="text-sm leading-1.4 font-medium text-black2">{{ generalConfig?.static_info?.contact?.addresses?.main }}</p>
             </div>
         </div>
         <div>
-            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">Телефоны</h3>
+            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">{{ generalConfig?.static_info?.global_words?.telephone }}</h3>
             <div class="mt-4 lg:mt-5 pt-4 lg:pt-5 gap-2 border-t border-fline3 flex flex-col">
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (800)-201-42-64</NuxtLinkLocale>
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (843)-299-42-64</NuxtLinkLocale>
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (843)-299-43-40</NuxtLinkLocale>
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">8 (962)-558-35-19</NuxtLinkLocale>
+                <NuxtLink :to="phoneLinkReplace(telephon)" v-for="telephon in generalConfig?.static_info?.contact?.telephones" class="text-sm leading-1.4 font-medium text-fblue w-fit">{{ telephon }}</NuxtLink>
             </div>
         </div>
         <div>
-            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">Почта</h3>
+            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">{{ generalConfig?.static_info?.global_words?.email }}</h3>
             <div class="mt-4 lg:mt-5 pt-4 lg:pt-5 gap-2 border-t border-fline3 flex flex-col">
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">welcome@pgrata16.ru</NuxtLinkLocale>
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">grouptour@pgrata16.ru</NuxtLinkLocale>
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">tour@pgrata16.ru</NuxtLinkLocale>
-                <NuxtLinkLocale to="/test" class="text-sm leading-1.4 font-medium text-fblue w-fit">vizitkzn@pgrata16.ru</NuxtLinkLocale>
+                <NuxtLink :to="`mailto:${email}`" v-for="email in generalConfig?.static_info?.contact?.emails" class="text-sm leading-1.4 font-medium text-fblue w-fit">{{ email }}</NuxtLink>
             </div>
         </div>
         <div>
-            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">График работы</h3>
-            <div class="mt-4 lg:mt-5 pt-4 lg:pt-5 gap-2 border-t border-fline3 flex flex-col">
-                <div class="text-fmain text-sm leading-1.4 flex flex-col gap-2">
-                    <div class="flex gap-2">
-                        <p>Пн - Пт</p>
-                        <p class="ml-auto text-fblack">9:00 - 18:00</p>
-                    </div>
-                    <div class="flex gap-2">
-                        <p>Суббота</p>
-                        <p class="ml-auto text-fblack">Закрыто</p>
-                    </div>
-                    <div class="flex gap-2">
-                        <p>Воскресенье</p>
-                        <p class="ml-auto text-fblack">Закрыто</p>
-                    </div>
+            <h3 class="font-Nekst text-fblack text-lg font-semibold leading-1.2">{{ generalConfig?.static_info?.global_words?.time_work }}</h3>
+            <div class="mt-4 lg:mt-5 pt-4 lg:pt-5 gap-2 border-t border-fline3 flex flex-col text-fmain text-sm leading-1.4">
+                <div v-for="item in generalConfig?.static_info?.contact?.opening_hours" class="flex gap-2">
+                    <p class="text-fblack">{{ item }}</p>
                 </div>
             </div>
         </div>
     </div>
-    <Feedback class="mt-15 lg:mt-12.5"></Feedback>
+    <Feedback :title="pageInfo?.content?.form_search?.title" :description="pageInfo?.content?.form_search?.description" class="mt-15 lg:mt-12.5"></Feedback>
     <div class="mt-15 lg:mt-25 col-span-full rounded-t-7.5 overflow-hidden h-404px lg:h-500px -mb-27.5 lg:-mb-44">
         <ClientOnly>
             <YandexMap controls="false" :coordinates="[55.45, 49.1]" class="w-full h-full"></YandexMap>
@@ -57,5 +40,17 @@
 import { YandexMap } from 'vue-yandex-maps'
 definePageMeta({
     layout: 'fixed'
+})
+const { generalConfig } = storeToRefs(useGeneralConfigStore())
+
+const { data: pageInfo } = await useBaseFetch(`search/page`, {
+    key: 'contact',
+    query: { key: 'contact' }
+})
+
+useSeoMeta({
+    title: () => pageInfo.value?.seo?.title ?? " ",
+    description: () => pageInfo.value?.seo?.description ?? " ",
+    keywords: () => pageInfo.value?.seo?.keywords ?? ' ',
 })
 </script>
