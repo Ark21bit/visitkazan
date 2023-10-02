@@ -12,8 +12,7 @@
     "@formkit/nuxt": "^1.2.1",
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.0.0-rc.4",
-    "@types/node": "^20.8.0",
-    "@unocss/nuxt": "^0.56.4",
+    "@types/node": "^20.8.0",   
     "@vueuse/nuxt": "^10.4.1",
     "dayjs-nuxt": "^1.2.3",
     "nuxt": "^3.7.4",
@@ -29,6 +28,9 @@
     "pinia": "^2.1.6",
     "swiper": "^10.3.1",
     "vue-yandex-maps": "^1.1.0"
+  },
+  "peerDependencies": {
+    "@unocss/nuxt": "^0.56.4"
   },
   "overrides": {
     "vue": "latest"
